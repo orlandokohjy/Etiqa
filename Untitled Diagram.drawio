@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T10:22:12.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="8sAvPdHCiimzpakE0PW2" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T16:37:27.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="0nbiG3X652rJEkIA_83j" version="16.5.3" type="github">
   <diagram id="ka9EOJAELgnnNQ_SWJG2" name="Page-1">
-    <mxGraphModel dx="1136" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,23 +10,26 @@
         <mxCell id="XPmNMmqTWOrP7fZrcmtY-2" value="Any criteria?&lt;br&gt;1. Campaign: 17 - 31 Jan 2022&lt;br&gt;2. No cancellation/Over free-look period&lt;br&gt;3. Promo code: MAIDUP&lt;br&gt;&lt;br&gt;**Checked no MAIDUP promo outside the campaign period&lt;br&gt;**Checked there is no Cancelled status&lt;br&gt;**Checked there is no other product with this promo code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="160" width="320" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="XPmNMmqTWOrP7fZrcmtY-3" value="Dataset&lt;br&gt;1. Look at &#39;Online -&amp;gt; T.Proposal&#39;&lt;br&gt;2. Check what information is missing from this dataset&lt;br&gt;3. Do a left join to merge the dataset with the required information" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="XPmNMmqTWOrP7fZrcmtY-3" value="Dataset&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. Look at &#39;Online -&amp;gt; T.Proposal&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. Check what information is missing from this dataset&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. Do a left join to merge the dataset with the required information&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=15;spacingRight=15;" parent="1" vertex="1">
           <mxGeometry x="500" y="180" width="320" height="130" as="geometry" />
         </mxCell>
         <mxCell id="XPmNMmqTWOrP7fZrcmtY-5" value="Reminder&lt;br&gt;1. Output as .xlsx&lt;br&gt;2. Encryption of files" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="80" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XPmNMmqTWOrP7fZrcmtY-6" value="1. Check on whether the customer is new/return&lt;br&gt;- extract a list of unique identifier&lt;br&gt;- create a master list with the same product with all lapsed, inforced, cancelled policies&lt;br&gt;- check against the master list &lt;br&gt;(count if whether it appears more than 2 times)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="XPmNMmqTWOrP7fZrcmtY-6" value="1. Check on whether the customer is new/return&lt;br&gt;- extract a list of unique identifier&lt;br&gt;- create a master list with the same product with all lapsed, inforced, cancelled policies&lt;br&gt;- check against the master list &lt;br&gt;(count if whether it appears more than 2 times)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;spacingLeft=15;spacingRight=15;align=left;" parent="1" vertex="1">
           <mxGeometry x="360" y="340" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="XPmNMmqTWOrP7fZrcmtY-7" value="2. Check whether this customer has another policy with the company&lt;br&gt;- extract a list of unique identifier&lt;br&gt;- create a master list (contains all the information for other products)&lt;br&gt;- check against the master list (count if whether it appears more than 2 times)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="XPmNMmqTWOrP7fZrcmtY-7" value="2. Check whether this customer has another policy with the company&lt;br&gt;- extract a list of unique identifier&lt;br&gt;- create a master list (contains all the information for other products)&lt;br&gt;- check against the master list (count if whether it appears more than 2 times)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;spacingLeft=15;spacingRight=15;align=left;" parent="1" vertex="1">
           <mxGeometry x="600" y="340" width="240" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="XPmNMmqTWOrP7fZrcmtY-10" value="Reference&lt;br&gt;1.&amp;nbsp;&lt;span style=&quot;color: rgb(29 , 28 , 29) ; text-align: left ; background-color: rgb(248 , 248 , 248)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;K:\09_Data_Analytics\Sonic\SQL Scripts\11_11_Policy_Extraction_FE.sql&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="80" y="500" width="260" height="60" as="geometry" />
+        <mxCell id="XPmNMmqTWOrP7fZrcmtY-10" value="Reference&lt;br&gt;1.&amp;nbsp;&lt;span style=&quot;text-align: left ; background-color: rgb(248 , 248 , 248)&quot;&gt;&lt;font&gt;&lt;font color=&quot;#1d1c1d&quot;&gt;K:\09_Data_Analytics\Sonic\SQL Scripts\11_11_Policy_Extraction_FE.sql&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#1d1c1d&quot;&gt;2. K:\09_Data_Analytics\99_Recurring scripts\Customer Product Holding&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="70" y="480" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XPmNMmqTWOrP7fZrcmtY-11" value="1. Name -&amp;gt; (T_Customer)&lt;br&gt;2. Purchase_date -&amp;gt; Insert_Time (T_Proposal)&lt;br&gt;3. Start_date -&amp;gt; Start_Date (T_Proposal)&lt;br&gt;4. Free-look_date -&amp;gt; Insert_Time + 14 days (T_Proposal)&lt;br&gt;5. Past_FL_date -&amp;gt; if today &amp;gt; Freelook_date then &quot;Yes&quot; (T_Proposal)&lt;br&gt;6. NRIC -&amp;gt; (T_Customer)&lt;br&gt;7. Email -&amp;gt; (T_Customer)&lt;br&gt;8. Policy_Number -&amp;gt; (T_Proposal)&lt;br&gt;9. Product -&amp;gt; (T_product)&lt;br&gt;10. Product_Name -&amp;gt; (T_product)&lt;br&gt;11. Total_Premium -&amp;gt; (T_Proposal)&lt;br&gt;12. Payment Type -&amp;gt;&amp;nbsp;&lt;br&gt;13. Promo_code -&amp;gt; Coupon_Code (T_Proposal)&lt;br&gt;14. New/Returning ePROTECT&lt;br&gt;15. Having other policy with the company&lt;br&gt;16. (Same as 15)&lt;br&gt;17. Eligible Cashback Amount -&amp;gt; End_Date - Start_Date" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="80" y="610" width="520" height="190" as="geometry" />
+          <mxGeometry x="60" y="740" width="520" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="mUjsZRYLafECx2S0r-g5-1" value="&lt;span style=&quot;text-align: left ; background-color: rgb(248 , 248 , 248)&quot;&gt;&lt;font&gt;To check&lt;br&gt;i) Policy Insert_Time within promo period but without promo code -&amp;gt; any reasons?&lt;br&gt;ii) Compare against other promo code campaign (number of cases)&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="260" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
